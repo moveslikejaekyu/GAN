@@ -13,49 +13,24 @@ What i studied with Generative Adversarial Network
   - We should focus on the full name of "GAN" </br>
   - "Generative" "Adversarial" Networks </br>
 
-  - The process of changing the character of a neighborhood through the influx of more affluent residents and businesses</br>
+  - The Discriminator learns using traditional supervised learning techniques(Usally Deep-learning), classifying inputs into two classes(real or fake)    </br>
+    
+  - The Generator learns is trained to fool the discriminator </br>
+  
 
- With this definition, i rewrited my own definition for Gentrification to understand phenomenon easily.
+ With this basic concept, author used a metaphor for trying to understand Generator and Discriminator easily. </br>
+
+ - The discriminator can be thought as a police who should discriminate real or fake money  </br>
+ - The Generator can be thougt as a counterfeiter who want to make fake money as real and even police confused to discriminate it! </br>
  
-     -> The leaseholder(poorer people) who made deteriorating area better & characteristic are expelled 
-     and displaced to middle-class people because of super high raise of monthly pay by landlord. 
-     This area's character are gradually lost so people who are used to come do not come here anymore. 
-     Finally the area are gonna deteriorated and both of them(landlord,leaseholder) become loser. 
+So, how to make fake money as real? </br>
+Generator(Conterfeiter) should learn to create samples that are drawn from the same distribution as the traing data  </br>
+
 </br>
 
-### 3. Introdution
-In these days, Gentrification becomes a very big & unsolvable city problem. 
-The city experts said "There was no solution for Gentrification and also now". 
-Because it's a kinda natural capitalism problem and inevitable result of market principles. 
-Even though there are regulations for increasing monthly pay super high, it doesn't work well.
-The worst thing is if Gentrification happen, the situation worsens at a rapid pace and became impossible to stop this with any solutions.</br>
+### 3. Model Explanation and Actual flows in codes
 
- With these things, I thought if i collect big data concerned with Gentrification,
-   * 1.- Analyse them with time-series 
-   * 2.- Extract the regular pattern 
-   * 3.- Predict Gentrification with the pattern - catch the beginning step of Gentrification  
-   * 4.- Do preemptive defense before Gentrification gonna worse.
-   * 5.- Finally prevent Gentrification and make win-win game for landlord and leaseholder
- </br>
- With this inspiration, i collected big data concerned with Gentrification, </br>
- analysed two areas with big-data & spatial analysis and made model for catching beginning step of Gentrification!
- </br>
- 
-### 4. Main Contents
-Below are the main contents of the project. </br>
-If you feel interested with my own definition and introduction, i think you gonna read main contents with more interest!</br>
+  - This chapter are explained kindly in uploaded Slides. So look it up please!
 
-### Final Presentation
-
- *  [FinalPresentation](FinalPresentation.pdf)
-
-
-### Poster Session
-
- *  [Pannel](Pannel.pdf)
-
-
-### Awarded
-
- *  [Awarded](Awarded.pdf)
+ *  [Introduction_of_GAN_JK_pdf](Introduction_of_GAN_JK_pdf.pdf)
 

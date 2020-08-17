@@ -33,4 +33,5 @@ Generator(Conterfeiter) should learn to create samples that are drawn from the s
   - This chapter are explained kindly in uploaded Slides. So look it up please!
 
  *  [Introduction_of_GAN_JK_pdf](Introduction_of_GAN_JK_pdf.pdf)
+ ![Introduction_of_GAN_JK](Introduction_of_GAN_JK_pdf.pdf)
 
